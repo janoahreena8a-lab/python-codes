@@ -1,0 +1,17 @@
+import turtle
+from turtle import*
+her=turtle.Turtle()
+her.speed(10)
+turtle.title("Heart Shape")
+screen=turtle.Screen()
+screen.bgcolor("black")
+her.color("red")
+her.begin_fill()
+her.fillcolor("pink")
+her.left(140)
+her.forward(180)
+her.circle(-90,200)
+her.setheading(60)
+her.circle(-90,200)
+her.forward(180)
+her.end_fill()
